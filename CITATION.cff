@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite the white paper."
+title: "fAI: a deterministic question-answering engine that cannot make things up"
+type: software
+authors:
+  - family-names: "Kylor"
+    given-names: "Soren"
+date-released: "2026-09-28"
+abstract: >-
+  fAI is a deterministic, LLM-free question-answering engine. Every factual
+  sentence is quoted word for word from a named source, computed by a
+  checkable rule, or filled into a fixed pattern from cited database facts;
+  otherwise it abstains. It runs on a Raspberry Pi 4 with 4 GB of memory.
+keywords:
+  - deterministic question answering
+  - LLM-free
+  - extractive question answering
+  - hallucination
+  - retrieval
+  - Raspberry Pi
+  - Wikidata
+  - offline AI
+preferred-citation:
+  type: report
+  title: "fAI: a deterministic question-answering engine that cannot make things up"
+  authors:
+    - family-names: "Kylor"
+      given-names: "Soren"
+  year: 2026
+  month: 9
