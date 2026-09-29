@@ -2,10 +2,14 @@ cff-version: 1.2.0
 message: "If you use or discuss this work, please cite the white paper."
 title: "fAI: a deterministic question-answering engine that cannot make things up"
 type: software
+version: 1.0.0-alpha
+date-released: "2026-09-28"
 authors:
   - family-names: "Kylor"
     given-names: "Soren"
-date-released: "2026-09-28"
+repository-code: "https://github.com/sorenkylor/We-Have-AI-At-Home"
+url: "https://github.com/sorenkylor/We-Have-AI-At-Home"
+license: MIT
 abstract: >-
   fAI is a deterministic, LLM-free question-answering engine. Every factual
   sentence is quoted word for word from a named source, computed by a
@@ -20,6 +24,7 @@ keywords:
   - Raspberry Pi
   - Wikidata
   - offline AI
+  - self-hosted
 preferred-citation:
   type: report
   title: "fAI: a deterministic question-answering engine that cannot make things up"
@@ -28,3 +33,4 @@ preferred-citation:
       given-names: "Soren"
   year: 2026
   month: 9
+  url: "https://github.com/sorenkylor/We-Have-AI-At-Home/blob/main/docs/fai-white-paper-llm-free-question-answering.md"
