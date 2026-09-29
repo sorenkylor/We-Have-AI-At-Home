@@ -8,7 +8,7 @@ fAI answers questions by finding and quoting real sources, doing arithmetic on f
 
 > "fAI" is short for *fake AI*. That's the point: it's a small program that is honest about what it is.
 
-- 📄 **White paper:** [LLM-free question answering on a Raspberry Pi](https://github.com/sorenkylor/We-Have-AI-At-Home/blob/main/docs/fai-white-paper-llm-free-question-answering.md)
+- 📄 **White paper:** [fAI: a deterministic question-answering engine that cannot make things up](https://github.com/sorenkylor/We-Have-AI-At-Home/blob/main/docs/fai-white-paper-llm-free-question-answering.md)
 - 🚀 **Install in one command:** see [Install](#install) (the installer is the only file you need; it's this repository's [`install-noai.sh`](install-noai.sh))
 - 🧪 **Measured, not promised:** see [How well does it work?](#how-well-does-it-work)
 
