@@ -9,7 +9,7 @@ fAI answers questions by finding and quoting real sources, doing arithmetic on f
 > "fAI" is short for *fake AI*. That's the point: it's a small program that is honest about what it is.
 
 - 📄 **White paper:** [fAI: a deterministic question-answering engine that cannot make things up](https://github.com/sorenkylor/We-Have-AI-At-Home/blob/main/docs/fai-white-paper-llm-free-question-answering.md)
-- 🚀 **Install in one command:** see [Install](#install) (the installer is the only file you need; it's this repository's [`install-noai.sh`](install-noai.sh))
+- 🚀 **Install in one command:** see [Install](#install) (the installer is the only file you need: [`releases/install-noai-v1-alpha.sh`](releases/install-noai-v1-alpha.sh))
 - 🧪 **Measured, not promised:** see [How well does it work?](#how-well-does-it-work)
 
 ---
@@ -88,8 +88,8 @@ question ─► planner (rules: what kind of question, how fresh must the answer
 Tested on a Raspberry Pi 4 (4 GB) running 64-bit Raspberry Pi OS with Docker; a Pi 5 or any Linux PC with Docker works too. Allow about 6 GB of disk and half an hour for the first install (models, tldr pages and the self-test).
 
 ```bash
-curl -fsSLO https://raw.githubusercontent.com/sorenkylor/We-Have-AI-At-Home/main/install-noai.sh
-NOAI_CONTACT=you@example.com bash install-noai.sh
+curl -fsSLO https://raw.githubusercontent.com/sorenkylor/We-Have-AI-At-Home/main/releases/install-noai-v1-alpha.sh
+NOAI_CONTACT=you@example.com bash install-noai-v1-alpha.sh
 ```
 
 That's it. The installer sets up SearXNG and the app, downloads the two small models and the tldr pages, runs the self-test, and prints the URL (default `http://<pi-address>:7070`) and an access code for the tools. `NOAI_CONTACT` is the contact address Wikimedia asks polite API clients to send; nothing is sent anywhere else.
